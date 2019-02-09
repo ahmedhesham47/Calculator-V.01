@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator V.01 - Ahmed Hesham </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="form">
+            <div class="screen">
+                <input id="operation" name="textview" type="text" />
+                <button onclick="clean();">C</button>
+            </div>
+        </form>
+        <div class="numbers">
+            <div class="row">
+                <span class="num_values" onclick="showOnScreen(1);">1</span>
+                <span class="num_values" onclick="showOnScreen(2);">2</span>
+                <span class="num_values" onclick="showOnScreen(3);">3</span>
+            </div>
+            
+            <div class="row">
+                <span class="num_values" onclick="showOnScreen(4);">4</span>
+                <span class="num_values" onclick="showOnScreen(5);">5</span>
+                <span class="num_values" onclick="showOnScreen(6);">6</span>
+            </div>
+            <div class="row">
+                <span class="num_values" onclick="showOnScreen(7);">7</span>
+                <span class="num_values" onclick="showOnScreen(8);">8</span>
+                <span class="num_values" onclick="showOnScreen(9);">9</span>
+            </div>
+            <Br />
+            <div class="zero">
+                <span class="zero_val" onclick="showOnScreen(0);">0</span>
+            </div>
+        </div>
+        <div class="calculations">
+            <button class="btn" id="addition" onclick="showOnScreen('+');">+</button><br>
+            <button class="btn" id="subtraction" onclick="showOnScreen('-');">-</button><br>
+            <button class="btn" id="multiplication" onclick="showOnScreen('*');">*</button><br>
+            <button class="btn" id="division" onclick="showOnScreen('/');">/</button><br>
+            <button class="btn" id="equal" style="margin-top:35px; border: 2px solid blue;" onclick="equal();">=</button><br>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="javascript/myjs.js"></script>
+</html>
