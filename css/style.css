@@ -1,0 +1,106 @@
+.container{
+    margin:0 auto;
+    width:400px;
+    height:280px;
+    background-color: bisque;
+    margin-top: 100px;
+}
+
+.delete:hover{
+    background-color: rgba(100,100,130,0.6);
+}
+
+.screen{
+    width:100%;
+    height:60px;
+    background-color: rgba(192,192,192,0.9);
+    text-align:center;
+    font-weight:bold;
+}
+
+.screen button{
+    width:50px; 
+    padding:4px;
+    margin-left:15px;
+    color:white;
+    background-color: brown; 
+    border-radius: 10%;
+}
+
+#operation{
+    color: #000;
+    font-size:20px;
+    margin-bottom: 47px;
+    border: 2px solid grey;
+    margin-top:15px;
+    font-size:20px;
+    text-align:center;
+}
+
+.numbers{
+    width:60%;
+    height:75%;
+    background-color: burlywood;
+    float:left;
+}
+
+.num_values{
+    border: 2px solid black;
+    border-radius:50%;
+    margin: 20px;
+    background-color:chocolate;
+    padding:10px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.num_values:hover{
+    background-color: rgba(180,100,80,0.6);
+}
+
+.row{
+    padding-top:35px;
+}
+
+.zero{
+    margin:0 auto;
+    background-color: cadetblue;
+    padding:7px;
+    color:#fff;
+    text-align: center;
+    margin-top: 14px; 
+}
+
+.zero_val{
+    font-weight:bold;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius:25%;
+    background-color: black;
+    color:white;
+    padding:3px;
+    cursor: pointer;
+}
+
+.calculations{
+    background-color: darksalmon;
+    height:81%;
+    margin: 0 auto;
+}
+
+.btn{
+    width:120px;
+    margin-top:15px;
+    margin-left: 15px;
+    background-color:cornsilk;
+    border: 2px solid brown;
+    color:#000;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(180,100,80,0.6);
+}
+
+.btn:active,.zero:active,.num_values:active{
+    background-color:yellow;
+}
